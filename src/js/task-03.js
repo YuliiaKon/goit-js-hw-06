@@ -14,7 +14,7 @@ const images = [
 ];
 
 
-const makeGallery = document.body.querySelector('.gallery');
+const makeGallery = document.querySelector('.gallery');
 console.log(makeGallery);
 
 const markup = images
