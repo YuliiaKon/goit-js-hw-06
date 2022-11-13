@@ -4,3 +4,14 @@
 
 const counterValue = 0;
 
+const btnDecrement = document.querySelector("[data-action='decrement']");
+const btnIncrement = document.querySelector("[data-action='increment']");
+
+
+btnDecrement.addEventListener('click', event => {
+    console.log(event);
+});
+
+btnIncrement.addEventListener('click', () => {
+
+});
